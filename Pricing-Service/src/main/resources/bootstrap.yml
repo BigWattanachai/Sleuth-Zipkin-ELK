@@ -1,0 +1,14 @@
+spring:
+    application:
+      name: pricing-service
+    cloud:
+      config:
+        uri: http://localhost:8585
+    zipkin.baseUrl: http://localhost:9411
+eureka:
+    client:
+      serviceUrl:
+        defaultZone: http://localhost:8888/eureka/
+
+
+
